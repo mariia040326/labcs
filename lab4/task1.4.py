@@ -20,5 +20,4 @@ bc=sqrt((x3-x2)**2+(y3-y2)**2)
 ac=sqrt((x3-x1)**2+(y3-y1)**2)
 p=(ab+bc+ac)/2
 s=sqrt(p*(p-ab)*(p-bc)*(p-ac))
-print('={0:.2f}'.format(s))# laboratory4
-# laboratory4
+print('={0:.2f}'.format(s))
