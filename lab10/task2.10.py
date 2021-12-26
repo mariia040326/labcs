@@ -1,10 +1,11 @@
 class Graf:
-    def __init__(self,matrix):
+    def __init__(self,matrix,num_ver):
+        self.num_ver=num_ver
         self.matrix=matrix
 
-    def num_ver(self):
-        for row in self.matrix:
-            return print(len(row))
+    def print_num_ver(self):
+        return print(self.num_ver)
+
 
     def num_line(self):
         s=0
@@ -27,7 +28,7 @@ class Graf:
                 self.matrix[row][el]=0
         return print(self.matrix)
 
-a=Graf([[1,0,0],[0,0,1],[0,1,0]])
+a=Graf(3,[[1,0,0],[0,0,1],[0,1,0]])
 a.new_line(1,1)
 
 

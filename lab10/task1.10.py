@@ -1,6 +1,7 @@
 class Text:
-    def __init__(self,words):
+    def __init__(self,words,topic_text):
         self.words=list(words)
+        self.topic_text=topic_text
     def num_nothing(self):
         s=0
         for el in self.words:
